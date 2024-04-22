@@ -8,12 +8,24 @@
         height: 510px;
     }
 
+    .about_us {
+        margin-left: 40px;
+        margin-right: 40px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
     .about_us_img_1 .img {
         height: 260px;
     }
 
     .about_us_img_2 {
         height: 420px;
+    }
+
+    .single_services p {
+        font-size: 16px;
+        line-height: 24px;
     }
 
     .about_us_img_1 .text p {
@@ -42,7 +54,6 @@
         font-size: 60px;
     }
 
-
     /*==================================
     HOME PAGE 01 END
     ==================================*/
@@ -63,8 +74,6 @@
 
 
 
-
-
     /*==================================
         HOME PAGE 02 START
     ==================================*/
@@ -77,7 +86,11 @@
 
     .about_us_2 .section_heading_2 h2,
     .about_us_2 .section_heading_2 h2 span {
-        font-size: 70px;
+        font-size: 60px;
+    }
+
+    .about_us_2 .section_heading_2 h2 span {
+        padding-left: 210px;
     }
 
     .about_us_2_img_1 {
@@ -89,7 +102,11 @@
     }
 
     .section_heading_2 h2 {
-        font-size: 50px;
+        font-size: 45px;
+    }
+
+    .newsleter_2_text h2 {
+        font-size: 45px;
     }
 
     .about_us_2 .section_heading_2 h5 {
@@ -129,6 +146,7 @@
     .testimonial_2_img .img {
         width: 400px;
         height: 400px;
+        top: 56px;
     }
 
     .testimonial_2_text .description {
@@ -228,15 +246,7 @@
     ==================================*/
 
 
-
-
-
-
-
-
-
 }
-
 
 
 @media (min-width: 992px) and (max-width: 1199.99px) {
@@ -256,6 +266,11 @@
         margin-top: 100px;
     }
 
+    .about_us {
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+
     .about_us_img_1 .img {
         height: 470px;
     }
@@ -264,16 +279,16 @@
         height: 425px;
     }
 
+    .about_us_img_2 {
+        height: 600px;
+    }
+
     .single_project_img {
         height: 250px;
     }
 
     .single_review_top .text h3 {
         font-size: 22px;
-    }
-
-    .contact_form {
-        margin-top: 80px;
     }
 
     .footer_left h2,
@@ -314,8 +329,6 @@
 
 
 
-
-
     /*==================================
         HOME PAGE 02 START
     ==================================*/
@@ -350,8 +363,14 @@
         left: 0;
     }
 
+    .about_us_2 .section_heading_2 h2,
     .about_us_2 .section_heading_2 h2 span {
-        padding-left: 235px;
+        font-size: 45px;
+        line-height: 60px;
+    }
+
+    .about_us_2 .section_heading_2 h2 span {
+        padding-left: 125px;
     }
 
     .about_us_2_img_1 {
@@ -362,6 +381,13 @@
         height: 500px;
     }
 
+    .section_heading_2 h2 {
+        font-size: 45px;
+    }
+
+    .newsleter_2_text h2 {
+        font-size: 45px;
+    }
 
     .about_us_2_text {
         margin-left: 0;
@@ -372,7 +398,6 @@
     .about_us_2_text ul {
         justify-content: center;
     }
-
 
     .resume_2_img .img {
         width: 400px;
@@ -424,7 +449,6 @@
         font-size: 17px;
     }
 
-
     .service_2_item_text p {
         display: -webkit-box;
         -webkit-line-clamp: 2;
@@ -446,8 +470,8 @@
     .testimonial_2_img .img {
         width: 380px;
         height: 380px;
+        top: 40px;
     }
-
 
     .testimonial_2_text .description {
         font-size: 16px;
@@ -502,7 +526,6 @@
 
 
 
-
     /*==================================
         BLOG DETAILS START
     ==================================*/
@@ -518,19 +541,17 @@
         height: 360px;
     }
 
-    .blog_classic_right {
-        margin-top: 60px;
-    }
-
     .blog_classic_right_about_me {
         width: 100%;
+    }
+
+    .blog_details_left {
+        margin-bottom: 60px;
     }
 
     /*==================================
         BLOG DETAILS END
     ==================================*/
-
-
 
 
 
@@ -547,17 +568,6 @@
     ==================================*/
 
 
-
-
-
-
-
-
-
-
-
-
-
 }
 
 
@@ -567,6 +577,7 @@
     /*==================================
     HOME PAGE 01 START
     ==================================*/
+
     .navbar>.container {
         padding: 20px 0px;
     }
@@ -582,7 +593,7 @@
 
     .navbar-collapse {
         background: var(--colorBlack);
-        margin-top: 20px;
+        margin-top: 19px;
         padding-bottom: 30px;
     }
 
@@ -682,7 +693,7 @@
     }
 
     .contact_bg_area {
-        padding: 60px 30px 60px 30px;
+        padding: 60px 40px 60px 40px;
     }
 
     .contact_info h2 {
@@ -754,8 +765,6 @@
 
 
 
-
-
     /*==================================
         HOME PAGE 02 START
     ==================================*/
@@ -767,6 +776,7 @@
 
     .main_menu_2 .navbar-toggler {
         background: var(--colorBlue);
+        color: var(--colorWhite);
     }
 
     .main_menu_2 .navbar-toggler.show {
@@ -815,17 +825,13 @@
     }
 
     .banner_2_img .img {
-        width: 200px;
-        height: 250px;
-        top: -85px;
-        right: -32px;
+        display: none;
     }
-
 
     .about_us_2 .section_heading_2 h2,
     .about_us_2 .section_heading_2 h2 span {
-        font-size: 55px;
-        line-height: 60px;
+        font-size: 48px;
+        line-height: 56px;
     }
 
     .about_us_2 .section_heading_2 h2 span {
@@ -899,7 +905,6 @@
         font-size: 22px;
     }
 
-
     .about_us_2 .section_heading_2 h5 {
         top: 0px;
         left: 0;
@@ -909,7 +914,6 @@
         top: -35px;
         left: 0;
     }
-
 
     .service_newslwtter_bg {
         margin-right: 10px;
@@ -977,11 +981,9 @@
         height: 590px;
     }
 
-
     .testimonial_2_text {
         margin-top: 540px;
     }
-
 
     .testimonial_2_text .description {
         font-size: 18px;
@@ -1000,7 +1002,6 @@
         height: 560px;
         margin-top: 30px;
     }
-
 
     .blog_2_item .img {
         height: 250px;
@@ -1045,8 +1046,13 @@
     /*==================================
         BLOG START
     ==================================*/
+
     .navbar-collapse .common_btn {
         margin-top: 30px;
+    }
+
+    .main_menu_3 .navbar-collapse {
+        margin-top: 21px;
     }
 
     .main_menu_3>.container {
@@ -1059,6 +1065,7 @@
 
     .main_menu_3 .navbar-toggler {
         background: var(--colorBlue);
+        color: var(--colorWhite);
     }
 
     .main_menu_3 .navbar-toggler.show {
@@ -1090,7 +1097,6 @@
     /*==================================
         BLOG END
     ==================================*/
-
 
 
 
@@ -1129,8 +1135,6 @@
 
 
 
-
-
     /*==================================
         CONTACT START
     ==================================*/
@@ -1151,19 +1155,7 @@
     ==================================*/
 
 
-
-
-
-
-
-
-
-
-
-
 }
-
-
 
 
 
@@ -1187,7 +1179,7 @@
 
     .navbar-collapse {
         background: var(--colorBlack);
-        margin-top: 20px;
+        margin-top: 19px;
         padding-bottom: 30px;
     }
 
@@ -1252,7 +1244,11 @@
     }
 
     .about_us_img_2 {
-        height: 600px;
+        height: 870px;
+    }
+
+    .about_text {
+        padding: 0px 20px;
     }
 
     .single_project_img {
@@ -1324,7 +1320,6 @@
         margin-top: 60px;
     }
 
-
     .footer_right p {
         margin-top: 20px;
         margin-bottom: 25px;
@@ -1363,8 +1358,6 @@
 
 
 
-
-
     /*==================================
         HOME PAGE 02 START
     ==================================*/
@@ -1376,6 +1369,7 @@
 
     .main_menu_2 .navbar-toggler {
         background: var(--colorBlue);
+        color: var(--colorWhite);
     }
 
     .main_menu_2 .navbar-toggler.show {
@@ -1424,10 +1418,7 @@
     }
 
     .banner_2_img .img {
-        width: 200px;
-        height: 250px;
-        top: -85px;
-        right: -32px;
+        display: none;
     }
 
     .about_us_2 .section_heading_2 h5 {
@@ -1437,8 +1428,8 @@
 
     .about_us_2 .section_heading_2 h2,
     .about_us_2 .section_heading_2 h2 span {
-        font-size: 55px;
-        line-height: 60px;
+        font-size: 35px;
+        line-height: 45px;
     }
 
     .about_us_2 .section_heading_2 h2 span {
@@ -1478,14 +1469,10 @@
         font-size: 16px;
     }
 
-
-
-
     .resume_2_img .img {
         width: 100%;
         height: 260px;
     }
-
 
     .resume_2_shape {
         right: 0px;
@@ -1497,9 +1484,6 @@
         width: 90px;
         height: 30px;
     }
-
-
-
 
     .resume_2_shape .text h4,
     .resume_2_shape .text h4 span {
@@ -1528,14 +1512,10 @@
         font-size: 30px;
     }
 
-
     .project_2_img_1 .text,
     .project_2_img_2 .text {
         width: 100%;
     }
-
-
-
 
     .project_2_img_1 {
         height: 400px;
@@ -1544,7 +1524,6 @@
     .project_2_img_2 {
         height: 400px;
     }
-
 
     .project_2_img_1 .text,
     .project_2_img_2 .text {
@@ -1626,11 +1605,9 @@
         height: 500px;
     }
 
-
     .testimonial_2_text {
         margin-top: 440px;
     }
-
 
     .testimonial_2_text .description {
         font-size: 18px;
@@ -1649,7 +1626,6 @@
         height: 440px;
         margin-top: 30px;
     }
-
 
     .blog_2_item .img {
         height: 350px;
@@ -1670,7 +1646,7 @@
 
     .footer_2_form {
         padding: 20px;
-        margin-top: 30px;
+        margin-top: 60px;
     }
 
     .copy_right_2 p {
@@ -1688,13 +1664,10 @@
 
 
 
-
-
-
-
     /*==================================
         BLOG START
     ==================================*/
+
     .navbar-collapse .common_btn {
         margin-top: 30px;
     }
@@ -1703,12 +1676,17 @@
         margin-top: 8px;
     }
 
+    .main_menu_3 .navbar-collapse {
+        margin-top: 21px;
+    }
+
     .main_menu_3 .right_menu {
         margin-left: 20px;
     }
 
     .main_menu_3 .navbar-toggler {
         background: var(--colorBlue);
+        color: var(--colorWhite);
     }
 
     .main_menu_3 .navbar-toggler.show {
@@ -1731,7 +1709,6 @@
     .blog_classic_item .text .title {
         font-size: 24px;
     }
-
 
     .blog_classic_item .text p {
         font-size: 16px;
@@ -1773,7 +1750,6 @@
 
 
 
-
     /*==================================
         BLOG DETAILS START
     ==================================*/
@@ -1805,7 +1781,6 @@
 
 
 
-
     /*==================================
         CONTACT START
     ==================================*/
@@ -1825,30 +1800,7 @@
         CONTACT END
     ==================================*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
-
-
-
 
 
 @media (max-width: 575.99px) {
@@ -1856,6 +1808,7 @@
     /*==================================
     HOME PAGE 01 START
     ==================================*/
+
     .navbar>.container {
         padding: 20px 0px;
     }
@@ -1871,7 +1824,7 @@
 
     .navbar-collapse {
         background: var(--colorBlack);
-        margin-top: 20px;
+        margin-top: 19px;
         padding-bottom: 30px;
     }
 
@@ -1987,7 +1940,7 @@
     }
 
     .contact_bg_area {
-        padding: 60px 30px 60px 30px;
+        padding: 20px;
     }
 
     .contact_info h2 {
@@ -1996,7 +1949,9 @@
 
     .contact_form {
         margin-top: 60px;
-        padding: 20px;
+        padding: 0;
+        border: none;
+        background: none;
     }
 
     .footer_left h2 img {
@@ -2052,6 +2007,7 @@
     ==================================*/
 
 
+
     /*==================================
         HOME PAGE 01 LIGHT START
     ==================================*/
@@ -2064,14 +2020,14 @@
         height: auto;
     }
 
+    .home1_light .contact_form {
+        background: none;
+        box-shadow: none;
+    }
+
     /*==================================
         HOME PAGE 01 LIGHT END
     ==================================*/
-
-
-
-
-
 
 
 
@@ -2091,6 +2047,7 @@
 
     .main_menu_2 .navbar-toggler {
         background: var(--colorBlue);
+        color: var(--colorWhite);
     }
 
     .main_menu_2 .navbar-toggler.show {
@@ -2137,6 +2094,9 @@
         display: none;
     }
 
+    .banner_2_img .img {
+        display: none;
+    }
 
     .about_us_2 .section_heading_2 h2,
     .about_us_2 .section_heading_2 h2 span {
@@ -2188,8 +2148,6 @@
         font-size: 16px;
     }
 
-
-
     .resume_2_shape {
         right: 0px;
         width: 100%;
@@ -2204,7 +2162,6 @@
         width: 90px;
         height: 30px;
     }
-
 
     .resume_2_shape .text {
         width: 55%;
@@ -2225,12 +2182,7 @@
     }
 
     .resume_2_text ul li span {
-        width: 95px;
-        font-size: 18px;
-    }
-
-    .resume_2_text ul li {
-        font-size: 15px;
+        width: 100%;
     }
 
     .resume_2_text h4 {
@@ -2279,12 +2231,13 @@
     }
 
     .newsleter_2_text form input {
-        padding: 20px 115px 20px 20px;
+        padding: 17px 30px 17px 30px;
     }
 
-    .newsleter_2_text .common_btn_3 {
-        padding: 16px 10px;
-        font-size: 10px;
+    .newsleter_2_text form button {
+        position: initial;
+        margin-top: 20px;
+        width: 100%;
     }
 
     .service_2_item_left {
@@ -2384,9 +2337,8 @@
 
     .footer_2_form {
         padding: 20px;
-        margin-top: 30px;
+        margin-top: 60px;
     }
-
 
     .copy_right_2 p {
         font-size: 16px;
@@ -2422,12 +2374,17 @@
         margin-top: 8px;
     }
 
+    .main_menu_3 .navbar-collapse {
+        margin-top: 21px;
+    }
+
     .main_menu_3 .right_menu {
         margin-left: 20px;
     }
 
     .main_menu_3 .navbar-toggler {
         background: var(--colorBlue);
+        color: var(--colorWhite);
     }
 
     .main_menu_3 .navbar-toggler.show {
@@ -2534,6 +2491,10 @@
     .blog_details_comment .img {
         width: 90px;
         height: 90px;
+    }
+
+    .blog_details_form {
+        padding: 20px;
     }
 
     .blog_details_comment_text {
