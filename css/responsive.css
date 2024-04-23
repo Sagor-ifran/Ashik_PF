@@ -8,6 +8,32 @@
         height: 510px;
     }
 
+    .banner_img .img .shape_2 {
+        left: 100px;
+    }
+
+    .banner_img .img .shape_4 {
+        width: 140px;
+        height: 69px;
+    }
+
+    .banner_img .img .shape_3 {
+        top: 215px;
+        right: 25px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
     .about_us {
         margin-left: 40px;
         margin-right: 40px;
@@ -278,6 +304,35 @@
     .banner_img .img {
         height: 425px;
     }
+
+    .banner_img .img .shape_1 {
+        width: 45px;
+        height: 45px;
+    }
+
+    .banner_img .img .shape_2 {
+        left: 80px;
+    }
+
+    .banner_img .img .shape_3 {
+        top: 175px;
+        right: 15px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .banner_img .img .shape_4 {
+        top: 75px;
+        right: 15px;
+        width: 110px;
+        height: 54px;
+    }
+
+    .banner_img .img .shape_5 {
+        width: 180px;
+        height: 89px;
+    }
+
 
     .about_us_img_2 {
         height: 600px;
@@ -1874,6 +1929,26 @@
         height: auto;
     }
 
+    .banner_img .img .shape_1 {
+        display: none;
+    }
+
+    .banner_img .img .shape_2 {
+        display: none;
+    }
+
+    .banner_img .img .shape_3 {
+        display: none;
+    }
+
+    .banner_img .img .shape_4 {
+        display: none;
+    }
+
+    .banner_img .img .shape_5 {
+        display: none;
+    }
+
     .about_us {
         margin-left: 12px;
         margin-right: 12px;
@@ -2202,7 +2277,6 @@
         left: 0;
     }
 
-
     .project_2_img_1 .text,
     .project_2_img_2 .text {
         padding: 20px 20px 20px 20px;
@@ -2289,7 +2363,6 @@
         height: auto;
     }
 
-
     .testimonial_2_text {
         margin-top: 210px;
     }
@@ -2307,7 +2380,6 @@
         margin-top: 40px;
     }
 
-
     .testimonial_2_bg {
         padding: 170px 0px 100px 0px;
     }
@@ -2316,7 +2388,6 @@
         height: auto;
         margin-top: 30px;
     }
-
 
     .blog_2_item .img {
         height: auto;
@@ -2359,13 +2430,10 @@
 
 
 
-
-
-
-
     /*==================================
         BLOG START
     ==================================*/
+
     .navbar-collapse .common_btn {
         margin-top: 30px;
     }
@@ -2444,8 +2512,6 @@
     /*==================================
         BLOG END
     ==================================*/
-
-
 
 
 
@@ -2530,20 +2596,6 @@
     /*==================================
         CONTACT END
     ==================================*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 }

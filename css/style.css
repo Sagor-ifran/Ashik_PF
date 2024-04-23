@@ -518,6 +518,98 @@ button {
 
 .banner_img .img {
     height: 600px;
+    position: relative;
+    overflow: hidden;
+}
+
+.banner_img .img .shape_1 {
+    position: absolute;
+    top: 106px;
+    left: 45px;
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    animation: banner_animi_2 linear 3s infinite alternate;
+    -webkit-animation: banner_animi_2 linear 3s infinite alternate;
+}
+
+.banner_img .img .shape_2 {
+    position: absolute;
+    top: 37px;
+    left: 128px;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    animation: banner_animi_2 linear 3s infinite alternate;
+    -webkit-animation: banner_animi_2 linear 3s infinite alternate;
+}
+
+.banner_img .img .shape_3 {
+    position: absolute;
+    top: 272px;
+    right: 33px;
+    width: 65px;
+    height: 65px;
+    animation: banner_animi_2 linear 3s infinite alternate;
+    -webkit-animation: banner_animi_2 linear 3s infinite alternate;
+}
+
+.banner_img .img .shape_4 {
+    position: absolute;
+    top: 80px;
+    right: 15px;
+    width: 170px;
+    height: 84px;
+    display: inline-block;
+    animation: zoom_animi linear 2s infinite alternate;
+    -webkit-animation: zoom_animi linear 2s infinite alternate;
+}
+
+.banner_img .img .shape_5 {
+    position: absolute;
+    bottom: 12px;
+    left: -68px;
+    width: 270px;
+    height: 140px;
+    display: inline-block;
+    animation: banner_animi_2 linear 3s infinite alternate;
+    -webkit-animation: banner_animi_2 linear 3s infinite alternate;
+}
+
+@keyframes zoom_animi {
+    from {
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.05);
+        -webkit-transform: scale(1.05);
+        -moz-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        -o-transform: scale(1.05);
+    }
+}
+
+@keyframes banner_animi_2 {
+    form {
+        transform: translate(1);
+        -webkit-transform: translate(1);
+        -moz-transform: translate(1);
+        -ms-transform: translate(1);
+        -o-transform: translate(1);
+    }
+
+    to {
+        transform: translateX(-40px);
+        -webkit-transform: translateX(-40px);
+        -moz-transform: translateX(-40px);
+        -ms-transform: translateX(-40px);
+        -o-transform: translateX(-40px);
+    }
 }
 
 /* banner end */
@@ -1059,6 +1151,7 @@ button {
     padding: 22px 20px;
     border-radius: 5px;
     margin-bottom: 20px;
+    color: var(--colorWhite);
 }
 
 .contact_form form button {
@@ -1395,6 +1488,7 @@ footer {
 .home1_light .contact_form form input,
 .home1_light .contact_form form textarea {
     border: 1px solid #CCCCCC;
+    color: var(--colorBlack);
 }
 
 .home1_light .marquee_animi ul li a {
@@ -1931,18 +2025,22 @@ footer {
 
 .about_us_2_img_1 {
     height: 270px;
-}
-
-.about_us_2_img_1 img {
-    border-radius: 20px;
+    overflow: hidden;
+    border-radius: 20px !important;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
 }
 
 .about_us_2_img_2 {
     height: 400px;
-}
-
-.about_us_2_img_2 img {
-    border-radius: 20px;
+    overflow: hidden;
+    border-radius: 20px !important;
+    -webkit-border-radius: 20px !important;
+    -moz-border-radius: 20px !important;
+    -ms-border-radius: 20px !important;
+    -o-border-radius: 20px !important;
 }
 
 .about_us_2_text {
@@ -2180,17 +2278,21 @@ footer {
 .project_2_img_1 {
     height: 480px;
     position: relative;
-    border-radius: 10px;
+    border-radius: 15px;
     overflow: hidden;
-    margin-top: 40px;
+    margin: 40px 12px 0px;
 }
 
 .project_2_img_2 {
     height: 480px;
     position: relative;
-    border-radius: 10px;
+    border-radius: 15px;
     overflow: hidden;
-    margin-top: 40px;
+    margin: 40px 12px 0px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
 }
 
 .project_2_img_1 .text {
@@ -2223,15 +2325,6 @@ footer {
 .project_2_img_1 .text .title:hover,
 .project_2_img_2 .text .title:hover {
     color: var(--colorSecondary);
-}
-
-.project_2_img_1 img,
-.project_2_img_2 img {
-    border-radius: 15px;
-    -webkit-border-radius: 15px;
-    -moz-border-radius: 15px;
-    -ms-border-radius: 15px;
-    -o-border-radius: 15px;
 }
 
 .project_2_img_1 .text .plus,
@@ -2517,14 +2610,8 @@ footer {
 .testimonial_name .img {
     width: 70px;
     height: 70px;
-}
-
-.testimonial_name .img img {
     border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
+    overflow: hidden;
 }
 
 .testimonial_name .text {
@@ -2560,10 +2647,8 @@ footer {
 
 .hightlight_img {
     height: 480px;
-}
-
-.hightlight_img img {
     border-radius: 30px;
+    overflow: hidden;
 }
 
 /* highlight end */
@@ -2596,14 +2681,8 @@ footer {
 .blog_2_item .img {
     height: 290px;
     position: relative;
-}
-
-.blog_2_item .img img {
     border-radius: 10px 10px 0px 0px;
-    -webkit-border-radius: 10px 10px 0px 0px;
-    -moz-border-radius: 10px 10px 0px 0px;
-    -ms-border-radius: 10px 10px 0px 0px;
-    -o-border-radius: 10px 10px 0px 0px;
+    overflow: hidden;
 }
 
 .blog_2_item_comment {
@@ -3217,10 +3296,7 @@ footer {
 .blog_classic_item .img {
     height: 450px;
     border-radius: 10px;
-}
-
-.blog_classic_item .img img {
-    border-radius: 10px;
+    overflow: hidden;
 }
 
 .blog_classic_item .text {
@@ -3452,6 +3528,8 @@ footer {
     display: inline-block;
     width: 90px;
     height: 90px;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 .blog_classic_right_category {
@@ -3517,6 +3595,7 @@ footer {
     height: 240px;
     border-radius: 10px;
     position: relative;
+    overflow: hidden;
 }
 
 .blog_classic_right_about_me .text {
@@ -3561,6 +3640,7 @@ footer {
 .blog_details_left_img {
     height: 410px;
     border-radius: 10px;
+    overflow: hidden;
 }
 
 .blog_details_engazed {
@@ -3649,7 +3729,8 @@ footer {
 
 .blog_details_img_2 {
     height: 325px;
-    border-radius: 10px;
+    border-radius: 10px !important;
+    overflow: hidden;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
@@ -3746,14 +3827,8 @@ footer {
     width: 115px;
     height: 115px;
     margin-right: 20px;
-}
-
-.blog_details_comment .img img {
     border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
+    overflow: hidden;
 }
 
 .blog_details_comment_text {
